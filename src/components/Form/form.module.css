@@ -1,0 +1,23 @@
+.form__group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form__btn {
+  display: block;
+  margin: 15px auto auto;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form__btn:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.form__label {
+  margin-bottom: 5px;
+}
