@@ -8,7 +8,8 @@ class Form extends Component {
     name: '',
     number: '',
   };
-
+  
+  
   static defaultProps = {
     onSubmit: () => {},
   };
