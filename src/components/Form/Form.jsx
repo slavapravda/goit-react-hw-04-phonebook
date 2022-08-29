@@ -14,6 +14,7 @@ const Form = ({ onSubmit }) => {
 
   const handleChange = ({ target }) => {
     const { name, value } = target;
+    
     setState(prevState => ({
       ...prevState,
       [name]: value,
@@ -23,10 +24,6 @@ const Form = ({ onSubmit }) => {
   const handleSubmit = event => {
     event.preventDefault();
     onSubmit({ ...state });
-    reset();
-  };
-
-  const reset = () => {
     setState({
       name: '',
       number: '',
